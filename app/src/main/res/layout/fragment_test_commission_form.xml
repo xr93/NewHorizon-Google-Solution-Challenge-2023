@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comFormConstraint"
+    android:padding="5dp"
+    style="@style/clStyle">
+
+    <TextView
+        android:id="@+id/textCommission"
+        android:text="@string/commission_interest_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/darkBlueMain"
+        android:fontFamily="@font/dmsans_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/light_purple"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textCommission"
+        style="@style/cvStyle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/comInterestConstraint"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textComDesc"
+        android:fontFamily="@font/dmsans_regular"
+        android:text="@string/com_interest"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ctStyle"/>
+
+    <EditText
+        android:id="@+id/orderName"
+        android:hint="@string/orderName"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textComDesc"
+        android:importantForAutofill="no"
+        style="@style/etStyle"/>
+
+    <EditText
+        android:id="@+id/orderPhoneNumber"
+        android:hint="@string/orderPhoneNum"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orderName"
+        android:importantForAutofill="no"
+        style="@style/etStyle" />
+
+    <EditText
+        android:id="@+id/orderEmail"
+        android:hint="@string/orderEmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/orderPhoneNumber"
+        style="@style/etStyle" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/dmsans_medium"
+        android:text="@string/submit"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/orderEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

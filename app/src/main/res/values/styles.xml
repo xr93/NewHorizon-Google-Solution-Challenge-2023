@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main Header -->
+    <style name="h1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/darkBlueMain</item>
+        <item name="android:fontFamily">@font/dmsans_bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+    </style>
+
+    <!-- Card View -->
+    <style name="cvStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <!-- Card Text-->
+    <style name="ctStyle">
+        <item name="android:textColor">@color/darkBlueMain</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="etStyle">
+        <item name="android:textColor">@color/darkBlueMain</item>
+        <item name="android:fontFamily">@font/dmsans_regular</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edittxt</item>
+    </style>
+
+    <!-- RecyclerView -->
+    <style name="rvStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+
+    <!-- LinearLayout -->
+    <style name="llStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- ConstraintLayout -->
+    <style name="clStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- CheckBox-->
+    <style name="cbStyle">
+        <item name="buttonTint">@color/darkBlueMain</item>
+    </style>
+
+</resources>

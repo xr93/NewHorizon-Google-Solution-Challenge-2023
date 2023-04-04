@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">NewHorizon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Feature Labels-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_catalogue">Product Catalogue</string>
+    <string name="text_commission">Commission Space</string>
+    <string name="blogTitle">Journey Storytime</string>
+
+
+    <string name="text_home">Hey There!</string>
+    <string name="text_fact">Fact of the Day:</string>
+    <string name="text_fact_desc">There are around 69k refugees residing in the state of Selangor alone.</string>
+    <string name="desc">Hi there! I am Zarya. My specialities include needlework, and I have worked on projects such as...</string>
+    <string name="hint_refugee">Refugee Name Here</string>
+    <string name="hint_volunteer">Volunteer Name Here</string>
+    <string name="com_abtMe">About Me</string>
+    <string name="hint_comRate">Commission Rate</string>
+    <string name="hint_desc">Description Here</string>
+    <string name="place_order">Find Out More</string>
+    <string name="hint_location">Location</string>
+    <string name="text_donate">Make a Donation</string>
+    <string name="login_welcome">WELCOME BACK</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="login_showPassword">Show Password</string>
+    <string name="page_login">Login</string>
+    <string name="page_register">Register</string>
+    <string name="page_guest">Continue as guest</string>
+    <string name="text_sign_up">SIGN UP</string>
+    <string name="hint_firstName">First Name</string>
+    <string name="hint_lastName">Last Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_pw">Password</string>
+    <string name="hint_suEmail">Email</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="orderName">Enter Name</string>
+    <string name="orderPhoneNum">Enter Phone Number</string>
+    <string name="orderEmail">Enter E-Mail</string>
+    <string name="commission_interest_form">Commission Interest Form</string>
+    <string name="com_interest">Interested in commissioning an order? Let us know and our staff will contact you shortly.</string>
+    <string name="submit">Submit</string>
+
+    <!-- Donation Page -->
+    <string name="donationDetails">Donation Details</string>
+    <string name="header_donate_detail">If you would like to contribute directly, kindly make the donation according to the following details:</string>
+    <string name="donate_bank">Bank: SpringBank</string>
+    <string name="donate_acc">Account Number: 123456789</string>
+    <string name="donate_acc_name">Account Name: TgtWithRefugees</string>
+    <string name="donate_code">Reference 1: Z001 (Zarya Ahmed)</string>
+    <string name="donate_code2">Reference 2: Your Phone Number</string>
+    <string name="donate_ref">Note: Please include your phone number as a reference so that we may contact you if needed.</string>
+    <string name="donate_back">Back to Blog Page</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_maker">Person who made it</string>
+    <string name="text_note">Note: For the safety of the community, all communications will be done through our staff.</string>
+    <string name="text_prod_desc">100% made by the community, specially handcrafted with care</string>
+    <string name="text_blog_desc">Heartfelt stories written by the community themselves, from the journey to the present.</string>
+    <string name="pw_reset">RESET YOUR PASSWORD</string>
+    <string name="pw_email">Please enter your email:</string>
+</resources>

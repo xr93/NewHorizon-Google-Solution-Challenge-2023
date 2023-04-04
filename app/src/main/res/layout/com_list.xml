@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/comConstraint"
+    style="@style/clStyle">
+
+    <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/light_purple"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/comConstraint"
+        style="@style/cvStyle">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/comConstraint2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textComName"
+                android:fontFamily="@font/dmsans_bold"
+                android:hint="@string/hint_refugee"
+                android:textSize="20sp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/ctStyle"/>
+
+            <TextView
+                android:id="@+id/textComBuddy"
+                android:fontFamily="@font/dmsans_medium"
+                android:hint="@string/hint_volunteer"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textComName"
+                style="@style/ctStyle"/>
+
+                <ImageView
+                    android:id="@+id/comImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textComBuddy"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textAbtMe"
+                    android:fontFamily="@font/dmsans_medium"
+                    android:text="@string/com_abtMe"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/comImage"
+                    style="@style/ctStyle"/>
+
+                <TextView
+                    android:id="@+id/textRate"
+                    android:fontFamily="@font/dmsans_medium"
+                    android:hint="@string/hint_comRate"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textAbtMe"
+                    style="@style/ctStyle"/>
+
+                <TextView
+                    android:id="@+id/comDescription"
+                    android:fontFamily="@font/dmsans_regular"
+                    android:hint="@string/hint_desc"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textRate"
+                    style="@style/ctStyle"/>
+
+            <Button
+                android:id="@+id/btnCom"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/custom_button"
+                android:fontFamily="@font/dmsans_medium"
+                android:text="@string/place_order"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/comDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

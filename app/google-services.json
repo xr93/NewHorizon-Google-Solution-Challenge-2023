@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "921045185062",
+    "firebase_url": "https://newhorizon-f181a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "newhorizon-f181a",
+    "storage_bucket": "newhorizon-f181a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921045185062:android:39099c3125ae48cfed6ce7",
+        "android_client_info": {
+          "package_name": "com.ascent.newhorizon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921045185062-oo95fs35c05ocho4h6lotksok9o6c9vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ascent.newhorizon",
+            "certificate_hash": "e9d24354d41d6db1de759478854412ec79687a3c"
+          }
+        },
+        {
+          "client_id": "921045185062-23ivct3ttgmsemrubnuplas03o9tute5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeYiVGCOE2yzqTxg5dyWr4B2slwf1Ewzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921045185062-23ivct3ttgmsemrubnuplas03o9tute5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
