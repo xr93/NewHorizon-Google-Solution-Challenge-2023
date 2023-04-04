@@ -67,7 +67,7 @@ public class DonationFragment extends Fragment implements DonateAdapter.OnItemCl
 
         ref.add("Note: Please include your phone number as a reference so that we may contact you as every donation comes with a token of appreciation");
 
-        donateBtn.add("back To Blog Page");
+        donateBtn.add("Back To Blog Page");
 
         DonateAdapter donateAdapter = new DonateAdapter(getContext(),donateText,bank,acc,holderacc,ref,reference1,reference2, donateBtn,this);
         recyclerView.setAdapter(donateAdapter);
